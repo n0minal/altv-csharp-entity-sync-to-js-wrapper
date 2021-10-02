@@ -1,5 +1,4 @@
-# altv-csharp-entity-sync-to-js-wrapper
+# AltV JS EntitySync Wrapper
 
-## What is this?
-
-This is a C# resource which exposes https://fabianterhorst.github.io/coreclr-module/articles/entity-sync.html package functionalities to JS.
+## Updating this package
+https://docs.altv.mp/cs/articles/entity-sync.html#configure-the-entity-sync
