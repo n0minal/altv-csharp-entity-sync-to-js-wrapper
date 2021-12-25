@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>F:\entitysync</OutputPath>
+    <OutputPath>D:\Change\To\Your\Path</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
