@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>D:\Change\To\Your\Path</OutputPath>
+    <OutputPath>F:\coding\sunday-altv\resources\entitysync-wrapper</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\Change\To\Your\Path</OutputPath>
+    <OutputPath>F:\coding\sunday-altv\resources\entitysync-wrapper</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
