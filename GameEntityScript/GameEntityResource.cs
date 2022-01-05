@@ -36,8 +36,20 @@ namespace GameEntityScript
             Alt.Export("setGameEntityData", new Action<long, long, String, object>(this.SetGameEntityData));
             Alt.Export("getGameEntityData", new Func<long, long, String, object>(this.GetGameEntityData));
             Alt.Export("resetGameEntityData", new Action<long, long, String>(this.ResetGameEntityData));
+            Alt.Export("getGameEntityNetOwner", new Func<long, long, IClient>(this.GetGameEntityNetOwner));
         }
 
+        private IClient GetGameEntityNetOwner(long id, long type) {
+            IEntity entity = GetGameEntity(id, type);
+
+            if (entity == null)
+            {
+                Console.WriteLine("[WARN] GameEntityResource::GetGameEntityNetOwner was called with invalid entity!");
+                return null;
+            }
+
+            return entity.NetOwner;
+        }
         private IEntity GetGameEntity(long id, long type)
         {
             IEntity entity;
